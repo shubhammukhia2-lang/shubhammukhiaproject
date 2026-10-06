@@ -1,0 +1,22 @@
+    
+//wap to check whether a number is even or odd with switch case
+#include <stdio.h>
+
+int main() {
+    int n;
+
+    printf("Enter number: ");
+    scanf("%d", &n);
+
+    switch(n % 2) {
+        case 0:
+            printf("Even");
+            break;
+
+        case 1:
+            printf("Odd");
+            break;
+    }
+
+    return 0;
+}
